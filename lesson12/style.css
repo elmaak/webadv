@@ -1,0 +1,62 @@
+@font-face {
+    font-family: "Merry Holiday";
+    src: url(merry_holiday/Merry\ Holiday.ttf);
+}
+h1{
+
+    color: green;
+    letter-spacing: 20px;
+}
+/* p{
+    text-indent: 100px;
+    text-align: center;
+    font-family: "Merry Holiday"; */
+/* } */
+p{
+    color: darkblue;
+}
+h2{
+    text-decoration: overline;
+    color: red;
+}
+h3{
+    color: blue;
+    text-decoration: line-through;
+}
+h4{
+    text-decoration: underline;
+    color: brown;
+}
+.p2{
+    color: darkorchid;
+    text-align: center;
+    background-color: darkorange ;
+}
+
+#p3{
+    font-style: normal;
+    color: coral;
+    font-weight: normal;
+}
+#p4{
+    font-style: italic;
+    color: cadetblue;
+    font-weight: bold;
+}
+#p5{
+    font-style: oblique;
+    color: crimson;
+    font-weight: 900;
+}
+a:link{
+    color: aqua;
+}
+a:visited{
+    color: blueviolet;
+}
+a:hover{
+    color: brown;
+}
+a:active{
+    color: coral;
+}
