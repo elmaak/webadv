@@ -66,14 +66,14 @@ nav ul li.active a {
 
 
 #section2 {
-    background-color: white;
+    background-color: #962f2f;
     padding: 50px 0;
 }
 
 .title-box h2 {
     font-size: 30px;
     text-align: center;
-    color: #9C2A2C; 
+    color: #D4AF37; 
 }
 
 .services-box {
@@ -97,12 +97,12 @@ nav ul li.active a {
 .service h3 {
     font-size: 24px;
     margin-top: 10px;
-    color: #9C2A2C; 
+    color: #D4AF37; 
 }
 
 .service p {
     font-size: 16px;
-    color: #555;
+    color: white;
 }
 
 
@@ -137,14 +137,14 @@ nav ul li.active a {
 }
 
 #section-4 {
-    background-color: #fff;
+    background-color: #962f2f;
     padding: 50px 0;
 }
 
 #section-4 .title-box h2 {
     font-size: 36px;
     text-align: center;
-    color: #9C2A2C;
+    color: #D4AF37;
 }
 
 #section-4 .line {
@@ -167,11 +167,11 @@ nav ul li.active a {
     border-radius: 10px;
     text-align: center;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
 }
 
 .menu-item:hover {
-    transform: translateY(-5px);
+   
     box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
 }
 
@@ -255,22 +255,19 @@ nav ul li.active a {
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    transition: background-color 0.3s;
+    
 }
-
 .big-button:hover {
-    background-color: #D4AF37; 
+    background-color: #D4AF37
+}
+footer{
+    background-color: #962f2f;
+    color: white;
+    padding: 16px;
+    text-align: center;
 }
 
 
-@media (max-width: 768px) {
-    .menu-items {
-        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    }
 
-    #contact-form {
-        padding: 20px;
-    }
-}
 
 
