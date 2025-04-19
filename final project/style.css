@@ -1,9 +1,9 @@
-/* Global Styles */
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #F5F5DC; /* Krem për sfondin */
+    background-color: #F5F5DC; 
     color: #333;
 }
 
@@ -12,14 +12,14 @@ body {
     margin: 0 auto;
 }
 
-/* Enable smooth scrolling when clicking on anchor links */
+
 html {
     scroll-behavior: smooth;
 }
 
-/* Section 1: Header and Navigation */
+
 #section-1 {
-    background-color: #9C2A2C; /* E kuqe e thellë për backgroundin */
+    background-color: #9C2A2C; 
     color: white;
     padding: 40px 0;
 }
@@ -55,16 +55,16 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    background-color: #D4AF37; /* Ari për hover */
+    background-color: #D4AF37; 
     color: white;
 }
 
 nav ul li.active a {
     font-weight: bold;
-    background-color: #D4AF37; /* Ari për linkun aktiv */
+    background-color: #D4AF37; 
 }
 
-/* Section 2: Food Items */
+
 #section2 {
     background-color: white;
     padding: 50px 0;
@@ -73,7 +73,7 @@ nav ul li.active a {
 .title-box h2 {
     font-size: 30px;
     text-align: center;
-    color: #9C2A2C; /* E kuqe e thellë */
+    color: #9C2A2C; 
 }
 
 .services-box {
@@ -97,7 +97,7 @@ nav ul li.active a {
 .service h3 {
     font-size: 24px;
     margin-top: 10px;
-    color: #9C2A2C; /* E kuqe e thellë */
+    color: #9C2A2C; 
 }
 
 .service p {
@@ -105,9 +105,9 @@ nav ul li.active a {
     color: #555;
 }
 
-/* Section 3: About Us */
+
 #section-3 {
-    background-color: #9C2A2C; /* E kuqe e thellë */
+    background-color: #9C2A2C; 
     color: white;
     padding: 50px 0;
 }
@@ -116,13 +116,13 @@ nav ul li.active a {
     font-size: 40px;
     text-align: center;
     text-transform: uppercase;
-    color: #D4AF37; /* Ari për titujt */
+    color: #D4AF37; 
 }
 
 #section-3 .line {
     width: 60px;
     height: 3px;
-    background-color: #D4AF37; /* Ari për linjën */
+    background-color: #D4AF37;
     margin: 10px auto;
 }
 
@@ -136,7 +136,6 @@ nav ul li.active a {
     text-align: center;
 }
 
-/* Section 4: Menu */
 #section-4 {
     background-color: #fff;
     padding: 50px 0;
@@ -145,13 +144,13 @@ nav ul li.active a {
 #section-4 .title-box h2 {
     font-size: 36px;
     text-align: center;
-    color: #9C2A2C; /* E kuqe e thellë */
+    color: #9C2A2C;
 }
 
 #section-4 .line {
     width: 60px;
     height: 3px;
-    background-color: #9C2A2C; /* E kuqe e thellë */
+    background-color: #9C2A2C; 
     margin: 10px auto;
 }
 
@@ -163,7 +162,7 @@ nav ul li.active a {
 }
 
 .menu-item {
-    background-color: #F5F5DC; /* Krem për itemet e menus */
+    background-color: #F5F5DC; 
     padding: 20px;
     border-radius: 10px;
     text-align: center;
@@ -178,7 +177,7 @@ nav ul li.active a {
 
 .menu-item h3 {
     font-size: 24px;
-    color: #9C2A2C; /* E kuqe e thellë */
+    color: #9C2A2C;
     margin-bottom: 10px;
 }
 
@@ -191,12 +190,12 @@ nav ul li.active a {
 .menu-item span {
     font-size: 18px;
     font-weight: bold;
-    color: #9C2A2C; /* E kuqe e thellë */
+    color: #9C2A2C; 
 }
 
-/* Section 5: Reservation */
+
 #section-5 {
-    background-color: #9C2A2C; /* E kuqe e thellë */
+    background-color: #9C2A2C; 
     color: white;
     padding: 50px 0;
 }
@@ -204,7 +203,7 @@ nav ul li.active a {
 #section-5 .title-box h2 {
     font-size: 36px;
     text-align: center;
-    color: #D4AF37; /* Ari për titujt */
+    color: #D4AF37; 
 }
 
 #section-5 .line {
@@ -260,10 +259,10 @@ nav ul li.active a {
 }
 
 .big-button:hover {
-    background-color: #D4AF37; /* Ari për hover */
+    background-color: #D4AF37; 
 }
 
-/* Make sure the form is responsive */
+
 @media (max-width: 768px) {
     .menu-items {
         grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
@@ -273,6 +272,5 @@ nav ul li.active a {
         padding: 20px;
     }
 }
-
 
 
