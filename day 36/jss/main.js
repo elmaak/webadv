@@ -45,8 +45,13 @@ $('#btn3').click(function(){
 
 })
 
-
-
+$('#square').click(function(){
+    $('#square').animate({
+        'left': '+=50',
+        'opacity': 0.25,
+        'fontSize': '50px'
+    })
+})
 
 /*
  click
@@ -57,3 +62,12 @@ $('#btn3').click(function(){
  focus
  resize
 */
+
+
+$('#sort').sortable();
+
+$(function(){
+    $('#accordion').accordion();
+})
+
+$('#tabs').tabs();
